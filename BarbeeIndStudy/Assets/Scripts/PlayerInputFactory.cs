@@ -28,5 +28,7 @@ public abstract class PlayerInputFactory {
     public abstract bool GetFire();
 
     public abstract bool GetFireDown();
+
+    public abstract bool GetFireUp();
   
 }

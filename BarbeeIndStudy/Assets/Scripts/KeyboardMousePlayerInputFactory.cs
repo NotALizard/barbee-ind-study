@@ -39,4 +39,9 @@ public class KeyboardMousePlayerInputFactory : PlayerInputFactory {
     {
         return Input.GetButtonDown("Fire1");
     }
+
+    public override bool GetFireUp()
+    {
+        return Input.GetButtonUp("Fire1");
+    }
 }

@@ -38,4 +38,9 @@ public class GamepadPlayerInputFactory : PlayerInputFactory {
     {
         return Input.GetButtonDown("Fire1GP");
     }
+
+    public override bool GetFireUp()
+    {
+        return Input.GetButtonUp("Fire1GP");
+    }
 }
